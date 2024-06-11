@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="content">
+        <div class="form">
+            <div class="title">
+                <h2 id="title">Add Employee</h2>
+            </div>
+            <div class="form_content">
+                <label for="employee_code">Employee code</label>
+                <input type="text" id="employee_code">
+            </div>
+            <div class="form_content">
+                <label for="employee_name">Employee name</label>
+                <input type="text" id="employee_name">
+            </div>
+            <div class="form_content">
+                <label for="email">Email</label>
+                <input type="email" id="email">
+            </div>
+            <div class="btn">
+                <button id="btn" onclick="add()">Add Employee</button>
+            </div>
+        </div>
+    
+        <div class="render">
+            <h2>Employee List</h2>
+            <table border="1" style="border-collapse: collapse;">
+                <th>
+                    <tr id="thead">
+                        <td>STT</td>
+                        <td>Employee code</td>
+                        <td>Employee name</td>
+                        <td>Email</td>
+                        <td colspan="2">Option</td>
+                    </tr>
+                </th>
+                <tbody id="data_render">
+    
+                </tbody>
+            </table>
+        </div>
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>

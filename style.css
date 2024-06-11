@@ -1,0 +1,47 @@
+        *{
+            box-sizing: border-box;
+        }
+        .content{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            padding: 100px;
+        }
+        h2{
+            text-align: center;
+        }
+        #thead td{
+            text-align: center;
+        }
+        #stt{
+            text-align: center;
+        }
+        input{
+            display: inline-block;
+            width: 100%;
+            padding: 5px;
+        }
+        .form{
+            border: 1px solid black;
+            padding: 20px;
+        }
+        .form_content{
+            padding: 10px;
+        }
+        td{
+            padding: 10px;
+        }
+        #btn{
+            width: 95%;
+            color: white;
+            background-color: blue;
+            border:none;
+            padding: 7px;
+            cursor: pointer;
+        }
+        .btn{
+            text-align: center;
+        }
+        .form_content{
+            margin-bottom: 10px;
+        }
